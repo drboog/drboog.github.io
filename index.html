@@ -16,37 +16,53 @@
             <div id="page-head">
                 <div id="photo"><img src="./index_files/yufan.jfif" align="right"></div>
                 <h1>Yufan Zhou</h1>
-                <h3>Ph.D. student</h3>
-                <div id="contact">
-                    Department of Computer Science and Engineering<br>
-                    University at Buffalo<br>
-                    Davis Hall, Buffalo, NY, 14260<br>
-                </div>
-                <br>
+                <p>Research Scientist at Adobe Research </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/yufan-zhou-a1b21a156/"  target="_blank">[Linkedin]</a>,
+                    <a href="https://scholar.google.com/citations?user=0eVrHJAAAAAJ"  target="_blank">[Google Scholar]</a>,
+                    <a href="https://github.com/drboog"  target="_blank">[GitHub]</a>
+                </p>
                 <b>Email: </b> yufanzho AT buffalo DOT edu
 
             </div>
 
             <hr>
             <div class="section-heading"><h2>Bio</h2></div>
+
                 <p>
-                    I will join Adobe Research as a Research Scientist.
+                Currently my research focuses on generative models especially multi-modal generative models. I'm working on some methods so that everyone can benefit from large-scale generative models, and contribute to this fascinating research topic even with limited computation resources. More specifically, I'm interested in:
                 </p>
-                <p> I am currently a Ph.D. candidate (Fall 2018 - Spring 2023) co-advised by
+                <ul>
+                    <li>Large-scale text-to-image generation models;</li>
+                    <li>Customize pre-trained generative models;</li>
+                    <li>Saving the training or dataset construction cost in generative modeling;</li>
+                </ul>
+
+
+                <p>
+                I obtained my Ph.D. from the <a href="https://engineering.buffalo.edu/computer-science-engineering.html"  target="_blank">Department of Computer Science and Engineering, University at Buffalo</a>, under the supervision of
                     <a href="https://cse.buffalo.edu/~jinhui/" target="_blank">Prof. Jinhui Xu</a> and
                     <a href="https://cse.buffalo.edu/~changyou/" target="_blank">Prof. Changyou Chen</a>.
-<!--                    <br>-->
                     I received my B.E. degree from <a href="https://www.zju.edu.cn/english/" target="_blank"> Zhejiang University</a>.
                     <br>
-                    I'm broadly interested in machine learning and deep learning. Currently I focus on generative models especially multi-modal generative models.<br>
-                    I worked as a Research Intern with <a href = "http://chunyuan.li/"  target="_blank">Chunyuan Li</a> (Microsoft), <a href = "https://zhangry868.github.io/"  target="_blank">Ruiyi Zhang</a> (Adobe), Bingchen Liu (ByteDance).
-<!--                    Here is my <a href="./CV.pdf">CV</a>.-->
+                </p>
+                <p>
+                    I worked as a Research Intern with <a href = "http://chunyuan.li/"  target="_blank">Chunyuan Li</a> (Microsoft), <a href = "https://zhangry868.github.io/"  target="_blank">Ruiyi Zhang</a> (Adobe), <a href="https://scholar.google.com/citations?user=uKdv6SUAAAAJ&hl=en"  target="_blank">Bingchen Liu</a> (ByteDance).
                 </p>
 
             <hr>
 
-            <div class="section-heading"><h2>Publications</h2></div>
-                <ol>
+            <div class="section-heading"><h2>Selected Papers <a href="./papers.html">[More]</a></h2> </div>
+                <ul>
+                    <li>
+                        <div class="paper">
+                            <div class="title"><text id="small-caps"> <a href="https://arxiv.org/abs/2305.13579">Enhancing Detail Preservation for Customized Text-to-Image Generation: A Regularization-Free Approach</a></text> (<a href="https://github.com/drboog/ProFusion">code</a>)</div>
+                            <div class="authors"> <b>Yufan Zhou</b>, Ruiyi Zhang, Tong Sun, Jinhui Xu. </div>
+                            <div class="abs"><font color="#00539CFF">A novel framework for customized text-to-image generation without the use of regularization. <br> We can efficiently customize a large-scale text-to-image generation model on single GPU, with only one image provided by the user.</font></i></div>
+
+                        </div>
+                    </li>
+                    <br>
 
                     <li>
                         <div class="paper">
@@ -54,7 +70,7 @@
                             <div class="title"><text id="small-caps"> <a href="https://arxiv.org/abs/2211.15388">Shifted Diffusion for Text-to-image Generation</a></text> (<a href="https://github.com/drboog/Shifted_Diffusion">code</a>)</div>
                             <div class="authors"> <b>Yufan Zhou</b>, Bingchen Liu, Yizhe Zhu, Xiao Yang, Changyou Chen, Jinhui Xu. </div>
                             <div class="venue"> <i> IEEE Conference on Computer Vision and Pattern Recognition </i> (<b>CVPR</b>), 2023.</div>
-                            <div class="abs"> <font color="#00539CFF">We propose a method termed Corgi, which can better generate image embeddings from text inside multimodal embedding space. It benefits both standard and language-free text-to-image generation. And yes, I do have a Corgi.</font> </i></div>
+                            <div class="abs"> <font color="#00539CFF">We propose a method termed Corgi, which can better generate image embeddings from text inside multimodal embedding space. <br> It benefits both standard and language-free text-to-image generation. And yes, I do have a Corgi.</font> </i></div>
                         </div>
                     </li>
                     <br>
@@ -71,13 +87,20 @@
 
                     <li>
                         <div class="paper">
-                            <div class="title"><text id="small-caps"> Interactive Image Generation with Natural-Language Feedback</text></div>
+                            <div class="title"><text id="small-caps"> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/20270">TiGAN: Text-Based Interactive Image Generation and Manipulation</a></text></div>
                             <div class="authors"> <b> Yufan Zhou</b>, Ruiyi Zhang, Jiuxiang Gu, Chris Tensmeyer, Tong Yu, Changyou Chen, Jinhui Xu, Tong Sun.</div>
                             <div class="venue"> <i>  AAAI conference on Artificial Intelligence </i> (<b>AAAI</b>), 2022.</div>
                         </div>
                     </li>
                     <br>
 
+                    <li>
+                        <div class="paper">
+                            <div class="title"><text id="small-caps"> <a href="https://arxiv.org/abs/2105.04538">Learning High-Dimensional Distributions with Latent Neural Fokker-Planck Kernels</a></text></div>
+                            <div class="authors"> <b>Yufan Zhou</b>, Changyou Chen, Jinhui Xu.</div>
+                        </div>
+                    </li>
+                    <br>
 
                     <li>
                         <div class="paper">
@@ -88,17 +111,6 @@
                     </li>
                     <br>
 
-
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> <a href = "https://arxiv.org/pdf/2011.00593.pdf"  target="_blank"> MixKD: Towards Efficient Distillation of Large-scale Language Models</a></text></div>
-                            <div class="authors"> Kevin J Liang, Weituo Hao, Dinghan Shen, <b>Yufan Zhou</b>, Weizhu Chen, Changyou Chen, Lawrence Carin.</div>
-                            <div class="venue"> <i> International Conference on Learning Representations</i> (<b>ICLR</b>), 2021.</div>
-                        </div>
-                    </li>
-                    <br>
-
-
                     <li>
                         <div class="paper">
                             <div class="title"><text id="small-caps"> <a href = "https://arxiv.org/pdf/2010.01761.pdf"  target="_blank">Learning Manifold Implicitly via Explicit Heat Kernel Learning</a></text></div>
@@ -106,89 +118,8 @@
                             <div class="venue"> <i> Conference on Neural Information Processing Systems</i> (<b>NeurIPS</b>), 2020.</div>
                         </div>
                     </li>
-                    <br>
 
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> <a href="https://ieeexplore.ieee.org/document/9098640"  target="_blank">Weakly-supervised Brain Tumor Classification with Global Diagnosis Label</a> <font color="#FF0000">(Oral)</font></text> </div>
-                            <div class="authors"> <b>Yufan Zhou</b>, Zheshuo Li, Chunwei Ma, Mingchen Gao, Changyou Chen, Hong Zhu, Jinhui Xu.</div>
-                            <div class="venue"> <i> IEEE International Symposium on Biomedical Imaging </i> (<b>ISBI</b>), 2020.</div>
-                        </div>
-                    </li>
-                    <br>
-
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> <a href="https://ojs.aaai.org//index.php/AAAI/article/view/6135"  target="_blank">Variational Adversarial Kernel Learned Imitation Learning</a> <font color="#FF0000">(Spotlight)</font></text></div>
-                            <div class="authors"> Fan Yang, Alina Vereshchaka, <b>Yufan Zhou</b>, Changyou Chen, Wen Dong.</div>
-                            <div class="venue"> <i> AAAI conference on Artificial Intelligence </i> (<b>AAAI</b>), 2020.</div>
-                        </div>
-                    </li>
-                    <br>
-
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> <a href="https://arxiv.org/pdf/1912.10150.pdf"  target="_blank">Learning Diverse Stochastic Action-Generators by Learning Smooth Latent Transitions</a> <font color="#FF0000">(Spotlight)</font></text> </div>
-                            <div class="authors">Zhenyi Wang, Ping Yu, Yang Zhao, Ruiyi Zhang, <b>Yufan Zhou</b>, Junsong Yuan, Changyou Chen.</div>
-                            <div class="venue"> <i> AAAI conference on Artificial Intelligence </i>  (<b>AAAI</b>), 2020.</div>
-                        </div>
-                    </li>
-                    <br>
-
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> <a href="https://cse.buffalo.edu/~mgao8/files/2018_BrainLes.pdf">Holistic Brain Tumor Screening and Classification Based on DenseNet and Recurrent Neural Network</a> </text></div>
-                            <div class="authors"> <b>Yufan Zhou</b>, Zheshuo Li, Hong Zhu, Changyou Chen, Mingchen Gao, Kai Xu, Jinhui Xu.</div>
-                            <div class="venue"> <i> International Conference on Medical Image Computing and Computer Assisted Intervention, Brain Lesion Workshop </i> (<b>BrainLes</b>, <b>MICCAI</b>), 2018.</div>
-                        </div>
-                    </li>
-
-
-                </ol>
-
-            <hr>
-            <div class="section-heading"><h2>Manuscripts/Preprints</h2></div>
-                <ol>
-
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> Lafite2: Few-shot Text-to-Image Generation</text></div>
-                            <div class="authors"> <b>Yufan Zhou</b>, Chunyuan Li, Changyou Chen, Jinhui Xu. </div>
-                        </div>
-                    </li>
-                    <br>
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> A Generic Approach for Enhancing GANs by Regularized Latent Optimization</text></div>
-                            <div class="authors"> <b>Yufan Zhou</b>, Chunyuan Li, Changyou Chen, Jinhui Xu. </div>
-                        </div>
-                    </li>
-                    <br>
-
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> Learning High-Dimensional Distributions with Latent Neural Fokker-Planck Kernels</text></div>
-                            <div class="authors"> <b>Yufan Zhou</b>, Changyou Chen, Jinhui Xu.</div>
-                        </div>
-                    </li>
-                    <br>
-
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> KernelNet: A Data-Dependent Kernel Parameterization for Deep Generative Modeling</text></div>
-                            <div class="authors"> <b>Yufan Zhou</b>, Changyou Chen, Jinhui Xu.</div>
-                        </div>
-                    </li>
-                    <br>
-
-                    <li>
-                        <div class="paper">
-                            <div class="title"><text id="small-caps"> Graph Neural Networks with Composite Kernels</text></div>
-                            <div class="authors"> <b>Yufan Zhou</b>, Jiayi Xian, Changyou Chen, Jinhui Xu.</div>
-                        </div>
-                    </li>
-                </ol>
-            </div>
+                </ul>
 
             <hr>
             <div class="section-heading"><h2>Professional Service</h2></div>
